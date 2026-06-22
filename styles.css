@@ -1,0 +1,62 @@
+body {
+  background-color: #f7f3e9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #180f15;
+  border: 2px solid #d4a373;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #df8d3b;
+}
+
+.slogan {
+  margin: 0;
+  font-style: italic;
+  color: #690606;
+}
+
+.starters, .main-course, .desserts, .find-us {
+  background-color:rgb(123, 108, 108);
+  border: 2px solid #d4a373;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #9c4d00;
+  margin-top: 4;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.find-us a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(123, 8, 8);
+  background-color: #d4a373;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
